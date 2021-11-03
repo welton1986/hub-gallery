@@ -27,17 +27,19 @@
             </div>
         </nav>
     <header>
-        <header class="masthead bg-primary text-white text-center">
+        <div class="masthead bg-primary text-white text-center">
             <div class="container d-flex align-items-center flex-column">
                 <h1 class="masthead-heading text-uppercase mb-0">Galeria Dopster Hub</h1>
             </div>
-        </header>
+        </div>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
+    
+    <main role="main" class="pb-3" style="height:auto;">
+        <div class="container corpo">
             @RenderBody()
-        </main>
-    </div>
+        </div>
+    </main>
+  
 
         <!-- Footer-->
         <footer class="footer text-center">
@@ -81,6 +83,7 @@
                 </small>
             </div>
         </div>
+           
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
